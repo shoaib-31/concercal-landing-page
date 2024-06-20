@@ -4,8 +4,8 @@ import React from "react";
 import { FaGooglePlusG } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className=" w-full bg-gray-900 p-6 flex justify-center items-center">
-      <div className=" w-4/5 gap-8 flex">
+    <div className=" w-full bg-gray-900 p-6 flex  justify-center items-center">
+      <div className=" w-4/5 gap-8 flex flex-col sm:flex-row">
         <div className=" text-xl flex-1 font-medium w-full flex items-center ">
           <Image src="/logo.png" alt="footer" width={60} height={60} />
           concercal.com
